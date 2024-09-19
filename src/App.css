@@ -1,38 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
+  padding: 5%;
+  margin: 5%;
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Resume {
+  border: 1px solid black;
+  height: max-content;
+  width: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Header {
+  border: 1px solid #338078;
+  height: max-content;
+  background: #338078;
   color: white;
+  font-size: larger;
 }
 
-.App-link {
-  color: #61dafb;
+.Header h1{
+  font-size: 3rem;
+  margin-bottom: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Content {
+  border: 1px solid black;
+  display: flex;
+  height: max-content;
 }
+
+.Contact {
+  flex: 1;
+  background-color:rgb(217, 217, 217) ;
+}
+
+.align {
+  text-align: justify;
+  text-align-last: right;
+  margin-right: 3%;
+}
+
+.Experience {
+  flex: 2;
+  text-align: justify;
+  margin-left: 3%;
+}
+
+.Experience h3 {
+  font-weight: lighter;
+}
+
+.Experience h4 {
+  margin-bottom: 1px;
+}
+
+.Experience ul {
+  margin-right: 35px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+
+.fontstyle {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
