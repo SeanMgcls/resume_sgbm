@@ -21,8 +21,8 @@ export default function App() {
                 <p>magcalassean@gmail.com<FontAwesomeIcon icon={faEnvelope} pull="right"/></p>
                 <p>0949-615-9157<FontAwesomeIcon icon={faPhone} pull="right"/></p>
                 <p>Santa Ana, Pampanga<FontAwesomeIcon icon={faLocationDot} pull="right"/></p>
-                <a href=""><p>Linkedin<FontAwesomeIcon icon={faLinkedin} pull="right"/></p></a>
-                <a href=""><p>GitHub<FontAwesomeIcon icon={faGithub} pull="right"/></p></a>
+                <a href="https://www.linkedin.com/in/sean-glenn-b-magcalas-a8556232a/"><p>Linkedin<FontAwesomeIcon icon={faLinkedin} pull="right"/></p></a>
+                <a href="https://github.com/SeanMgcls"><p>GitHub<FontAwesomeIcon icon={faGithub} pull="right"/></p></a>
 
               {/* EDUCATION */}
               <div className="fontstyle">
